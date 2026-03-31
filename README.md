@@ -4,7 +4,7 @@ The system detects and classifies invoices based on the company logo present in 
 
 This project demonstrates how machine learning can automate document processing workflows such as accounting, invoice routing, and vendor identification.
 
-#WORKFLOW
+# WORKFLOW
 Invoice Image
       ↓
 Image Preprocessing
@@ -15,7 +15,7 @@ Trained Classification Model
       ↓
 Predicted Company / Vendor
 
-#STRUCTURE
+# STRUCTURE
 invoice-logo-classification/
 │
 ├── dataset/                # Training and testing images
@@ -26,7 +26,7 @@ invoice-logo-classification/
 ├── requirements.txt        # Dependencies
 └── README.md
 
-🧩 Technologies Used
+# Technologies Used
 -> Python
 -> OpenCV
 -> NumPy
@@ -34,14 +34,14 @@ invoice-logo-classification/
 -> Image Classification
 -> Computer Vision
 
-📈 Use Cases
+# Use Cases
 -> Automated accounting systems
 -> Invoice sorting pipelines
 -> Vendor recognition
 -> Document management automation
 -> Enterprise RPA workflows
 
-🧪 Future Improvements
+# Future Improvements
 -> Logo detection + classification (YOLO integration)
 -> OCR + invoice data extraction
 -> API deployment (FastAPI / Flask)
