@@ -4,7 +4,8 @@ The system detects and classifies invoices based on the company logo present in 
 
 This project demonstrates how machine learning and computer vision can automate document processing workflows such as accounting, invoice routing, and vendor identification.
 
-# WORKFLOW
+# WORKFLOW  
+
 Invoice Image  
 
 Image Preprocessing  
