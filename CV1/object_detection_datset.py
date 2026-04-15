@@ -114,8 +114,7 @@ for j in range(dataset_size):
 
     try:
         location_x, location_y = random.randint(0, background.shape[1] - w), random.randint(0, background.shape[0] - h)
-        # print(location_x, int(w / 2), background.shape[1] - int(w / 2))
-        # print(location_y, int(h / 2), background.shape[0] - int(h / 2))
+     
         img_ = overlay_img(background, doc_img_, (location_x, location_y))
         cv2.imwrite(os.path.join(imgs_dir, '{}.jpg'.format(str(j))), img_)
 
