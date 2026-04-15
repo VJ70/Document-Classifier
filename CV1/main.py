@@ -45,6 +45,4 @@ for test_img_path_ in sorted(os.listdir(test_img_dir)):
 
         detections.append({'category': class_names[class_id], 'score': confidence_score})
 
-    # process detections
-    # return invoice category
     print(test_img_path_, process_detections(detections))
