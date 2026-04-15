@@ -13,8 +13,6 @@ def get_bbox(mask):
     coords = cv2.findNonZero(th)
     x, y, w, h = cv2.boundingRect(coords)
 
-    # _ = cv2.rectangle(mask, (int(x - (w / 2)), int(y - (h / 2))), (int(x + (w / 2)), int(y + (h / 2))), (0, 255, 0), 5)
-    # _ = cv2.rectangle(mask[:, :, :3].astype(np.int32), (int(x), int(y)), (int(x + w), int(y + h)), (0, 255, 0), 5)
 
 
     return int(x + (w / 2)), int(y + (h / 2)), int(w), int(h)
